@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* width: 80%; */
+    /* background-color: aqua; */
+}
+p,a,h1,h2,h3,h4,span{
+    color: black;
+    font-family: NPIMandana ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.slide-menu{
+    height: 450px;
+    background-color: #d7d7d7;
+}
+.slide-menu>section{
+    width: 15%;
+    padding: 10px;
+    float: left;
+    position: relative;
+    left: 50px;
+}
+.slide-menu>section>h2{
+    font-size: 35px;
+    color: black;
+}
+.slide-menu>section>p{
+    font-size: 17px;
+    color: black;
+}
+.slide-menu>section>.more{
+    background-color: #eee;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    display: inline-block;
+
+}
+
+.clear{
+    clear: both;
+}
+strip-carousel{
+    width: 75%;
+    float: right;
+
+}
+.test{
+    width: 75%;
+    overflow: hidden;
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+.gallery{
+    width: 90%;
+    margin: 0 auto;
+}
+.gallery-row{
+    position: relative;
+}
+.gallery-item{
+    width: 23%;
+    background-color: #d7d7d7;
+    float: left;
+    height: 350px;
+    margin: 10px ;
+}
+.gallery-item>img{
+    width: 65%;
+}
+.title-gallery{
+    background-color: #eee;
+    height: 30%;
+}
+div.number{
+    background-color: #d7d7d7;
+    height: 450px;
+    margin-top: 80px;
+    position: relative;
+}
+.number>section.number-title{
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    left: 200px;
+}
+.number-title>h2{
+    font-size: 40px;
+}
+.number-title>section{
+    width: 80%;
+    margin: 0 auto;
+}
+.number-title>section>div{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    float: left;
+    margin: 10px;
+}
+.number>.number-img{
+   /* float: right; */
+    height: 350px;
+    width: 300px;
+    background-color: #333;
+    position: absolute ;
+    bottom: 0;
+    right: 200px;
+}
